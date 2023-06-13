@@ -37,6 +37,12 @@
     animation: clouds-animation 40s infinite linear;
 }
 
+
+.pulo {
+    animation: jump-animation 0.5s ease-in-out;
+  }
+  
+
 @keyframes pipe-animation {
     from {
         right: 0;
@@ -71,4 +77,16 @@
     to {
         right: 100%;
     }
+}
+
+@keyframes jump-animation {
+  0% {
+    background-image: url('image/pulinho.gif');
+  }
+  50% {
+    background-image: url('image/pulinho.gif');
+  }
+  100% {
+    background-image: url('image/pulinho.gif');
+  }
 }

@@ -29,7 +29,7 @@ pipe.style.animation = 'none';
 pipe.style.bottom = `${sonicPosition}px`;
 
 sonic.src = 'image/gameover.png'
-sonic.style.width = '135px'
+sonic.style.width = '150px'
 
 clearInterval(loop)
 

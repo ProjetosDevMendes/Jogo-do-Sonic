@@ -32,8 +32,8 @@
 }
 
 .clouds {
-width:  1510px;
-height: 555px;
+width: 1980px;
+height: 570px;
 animation: clouds-animation 40s infinite linear;
 }
 
@@ -80,6 +80,6 @@ right: 100%;
     }
 
     to{
-        right: 100%
+        right: 100% 
     }
  }
